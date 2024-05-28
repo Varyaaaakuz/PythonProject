@@ -1,0 +1,5 @@
+import telebot
+bot=telebot.Telebot('7061253604:AAFnjVwo7Og6v5QLTwufmqSMKoAPK4REoyg')
+@bot.message_handlers(commands=['start'])
+def main(message):
+bot.send_message(message.chat.id, 'cringe')
